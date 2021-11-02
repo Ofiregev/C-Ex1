@@ -1,10 +1,6 @@
 #include<stdio.h>
 #include "NumClass.h"
-//int isArmstrong(int n);
-// int Count(int n);
-// int powers(int a, int b);
-// int bool(int a,int b);
-//int recIsPalindrome(int n);
+
 
 int isArmstrong(int n){
     int i;
