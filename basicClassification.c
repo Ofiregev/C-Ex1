@@ -1,8 +1,5 @@
 #include<stdio.h>
 #include "NumClass.h"
-
-
-
 int isPrime(int t){
 int i,b;
 b=1;
