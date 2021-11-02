@@ -1,8 +1,6 @@
 #include<stdio.h>
 #include "NumClass.h"
-int isPrime(int t);
-int isStrong(int n);
-int factor(int f);
+
 
 
 int isPrime(int t){
