@@ -6,11 +6,9 @@ int main()
     int i;
     int one;
     int two;
-//   printf("Please enter 2 numbers:\n");
     scanf("%d" ,&one);
     scanf("%d" ,&two);
     while(one<0||two<0){
-    // printf("Please enter 2 numbers:\n");
     scanf("%d" ,&one);
     scanf("%d" ,&two);
     }
