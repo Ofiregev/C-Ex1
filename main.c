@@ -15,7 +15,6 @@ int main()
         one=two;
         two=temp;
     }
-       printf("\n");
     printf("The Armstrong numbers are:");
     for(i=one;i<=two;i++){
         if(isArmstrong(i)){
