@@ -1,8 +1,8 @@
 //#include <stdio.h>
 int isArmstrong(int t);
-int isArmstrongrec(int size,int n,int x,int s);
+int isArmstrong1(int size,int n,int x,int s);
 /* will return if a number is a palindrome */
-int recIsPalindrome(int t);
+int isPalindrome(int t);
 /* will return if a number is prime*/
 int isPalindrome(int t);
 int isPrime(int t);
@@ -16,4 +16,6 @@ int Count(int n);
 /*calculating powers*/
 int powers(int a, int b);
 int bool(int a,int b);
-int reverse(int num);
+int reverse(int num,int t);
+int factor(int f);
+
