@@ -3,7 +3,7 @@
 
 
 int isArmstrong(int n){
-    int i;
+
     
     int reminder;
     int temp=n;
