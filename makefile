@@ -20,8 +20,8 @@ loopd: advancedClassificationLoop.o basicClassification.o
 mains: main.o recursives
 		$(CC) $(FLAGS) -o mains main.o  libclassrec.a
 
-mainloop:main.o libclassloops.so
-		$(CC) $(FLAGS) -o mainloop main.o libclassloops.so
+maindloop:main.o libclassloops.so
+		$(CC) $(FLAGS) -o maindloop main.o libclassloops.so
 maindrec: main.o libclassrec.so
 		$(CC) $(FLAGS) -o maindrec main.o libclassrec.so
 main.o:main.c NumClass.h
