@@ -1,9 +1,14 @@
 #include<stdio.h>
 #include "NumClass.h"
+// int isPrime(int t);
+// int isStrong(int n);
+// int factor(int f);
+
+
 int isPrime(int t){
 int i,b;
 b=1;
-if(t<2){
+if(t<1){
     return 0;
 }
 for(i=2;i<=(t/2);++i){
