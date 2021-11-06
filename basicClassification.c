@@ -28,12 +28,12 @@ int isStrong(int n){
     while(c!=0){
         t=c%10;
         s=s+factor(t);
-        if(s==n){
-            b=1;
-            break;
-        }
         c=c/10;
     }
+    if(s==n){
+          b=1;
+            
+        }
     return b;
 }
 int factor(int f){
