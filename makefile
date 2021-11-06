@@ -15,7 +15,7 @@ loopd:libclassloops.so
 libclassloops.so: advancedClassificationLoop.o basicClassification.o
 	gcc -shared -o libclassloops.so advancedClassificationLoop.o basicClassification.o
 mains: main.o recursives
-	$(CC) $(FLAGS) -o mains main.o libclassrec.a
+	$(CC) $(FLAGS) -o mains main.o  libclassrec.a
 maindrec: main.o libclassrec.so
 	$(CC) $(FLAGS) -o maindrec main.o ./libclassrec.so
 maindloop:main.o libclassloops.so
@@ -28,4 +28,6 @@ main.o:main.c NumClass.h
 advancedClassificationLoop.o: advancedClassificationLoop.c NumClass.h
 	$(CC) $(FLAG) -c advancedClassificationLoop.c 
 basicClassification.o: basicClassification.c NumClass.h
-	
+	$(CC) $(FLAG) -c basicClassification.c 
+advancedClassificationRecursion.o: advancedClassificationRecursion.c NumClass.h
+	$(CC) $(FLAG) -c advancedClassificationRecursion.c 
